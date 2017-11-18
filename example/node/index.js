@@ -1,7 +1,7 @@
 const Express = require('express');
 const Ops = require('operandi-test');
 
-const ops = new Ops();
+const ops = new Ops({ host: 'influxdb' });
 
 const app = Express();
 

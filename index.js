@@ -33,7 +33,7 @@ class Ops extends EventEmitter {
     this.osevents = options.osevents || defaults.osevents;
     this.v8events = options.v8events || defaults.v8events;
 
-    this.publisher = new Publisher();
+    this.publisher = new Publisher(options);
 
     this.on('start', () => {
       this.started = true;
