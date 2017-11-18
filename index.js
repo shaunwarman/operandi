@@ -78,12 +78,12 @@ class Ops extends EventEmitter {
   }
 
   _write(metrics) {
+    console.log(JSON.stringify(metrics));
     this.publisher.write(metrics, (err, res) => {
       if (err) {
         console.log(err);
         return;
       }
-      console.log(res);
     });
   }
 

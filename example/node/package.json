@@ -1,0 +1,15 @@
+{
+  "name": "express-ops-example",
+  "version": "0.0.1",
+  "description": "A simple express example using operandi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "operandi-test": "0.0.4"
+  }
+}
