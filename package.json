@@ -1,0 +1,30 @@
+{
+  "name": "operandi-test",
+  "version": "0.0.3",
+  "description": "A simple ops reporter",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ops",
+    "metrics",
+    "stats",
+    "os"
+  ],
+  "author": "Shaun Warman",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "influx-client": "0.0.2"
+  }
+}
